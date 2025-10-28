@@ -1,3 +1,11 @@
 title: "Julio Barros"
-description: "Personal website and portfolio"
-theme: jekyll-theme-cayman
+description: "Physicist — data science, material science, modeling, and visualization"
+theme: jekyll-theme-minimal
+
+# Social links (optional for header)
+github: https://github.com/juliobarros-BR
+linkedin: https://www.linkedin.com/in/julio-o-amando-de-barros-a80861129/
+google_scholar: https://scholar.google.com/citations?user=0siqWoIAAAAJ&hl=en&oi=ao
+
+# Optional extras
+show_downloads: true
