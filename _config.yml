@@ -1,12 +1,23 @@
+# === Basic site info ===
 title: "Julio Barros"
 description: "Physicist — data science, material science, modeling, and visualization"
 theme: jekyll-theme-minimal
 logo: /profile.jpeg
 
-# Social links (optional for header)
+# === Social links ===
 github: https://github.com/juliobarros-BR
 linkedin: https://www.linkedin.com/in/julio-o-amando-de-barros-a80861129/
 google_scholar: https://scholar.google.com/citations?user=0siqWoIAAAAJ&hl=en&oi=ao
 
-# Optional extras
+# === Build settings ===
+include:
+  - assets
+markdown: kramdown
+
+# === Optional extras ===
+show_downloads: false      # hides the ZIP/TAR buttons
+google_analytics: ""       # you can add your tracking ID later (optional)
+plugins:
+  - jekyll-seo-tag         # adds better search engine tags automatically
+
 
