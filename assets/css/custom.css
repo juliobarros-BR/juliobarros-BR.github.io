@@ -1,0 +1,5 @@
+/* shrink or enlarge sidebar logo without touching layout */
+header img[alt="Logo"] {
+  width: 140px !important;   /* default ≈200px; change as you like */
+  height: auto;              /* keep proportions */
+}
