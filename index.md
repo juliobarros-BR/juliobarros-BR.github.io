@@ -3,11 +3,11 @@ layout: default
 title: Home
 ---
 
-<p>
- **About me**
-I’m a physicist and data scientist working on micromechanics, modeling, and quantitative analysis of materials.  
+<p><strong>About me</strong><br>
+I’m a physicist and data scientist working on micromechanics, modeling, and quantitative analysis of materials.<br>
 I enjoy exploring the intersection between experimental data and computational methods — especially in biomaterials and wood mechanics.
 </p>
+
 
 <p>
 📍 Based in Switzerland · Originally from Brazil 🇧🇷
