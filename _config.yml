@@ -4,8 +4,8 @@ theme: jekyll-theme-minimal
 logo: /profile.jpeg
 
 show_downloads: false
-include:
-  - assets
+#include:
+#  - assets
 
 
 # === Social links ===
