@@ -4,6 +4,9 @@ theme: jekyll-theme-minimal
 logo: /profile.jpeg
 
 show_downloads: false
+include:
+  - assets
+
 
 # === Social links ===
 github: https://github.com/juliobarros-BR
