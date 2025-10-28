@@ -2,6 +2,8 @@
 layout: default
 title: Home
 ---
+<link rel="stylesheet" href="/assets/css/custom.css">
+
 
 <p><strong>About me</strong><br>
 I’m a physicist and data scientist working on micromechanics, modeling, and quantitative analysis of materials.<br>
