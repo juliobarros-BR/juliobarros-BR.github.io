@@ -5,7 +5,7 @@ title: Home
 
 <div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;">
 
-  <img src="profile.jpg" alt="Julio Barros" width="200" style="border-radius: 50%;">
+  <img src="profile.jpeg" alt="Julio Barros" width="200" style="border-radius: 50%;">
 
   <div>
     <h1 style="margin-bottom: 0.2em;">Julio Barros</h1>
