@@ -1,17 +1,16 @@
 /* === Custom styles for the Minimal theme === */
 
-img[alt="Logo"] {
-  width: 130px;          /* adjust horizontal size */
-  height: 170px;         /* adjust vertical size to make it taller/oval */
-  border-radius: 50% / 60%;  /* 50% horizontal, 60% vertical → ellipse shape */
-  object-fit: cover;     /* ensures the image fills the oval */
-  margin: 0 auto;        /* center it in the sidebar */
+/* Only target the sidebar logo, not the whole layout */
+header img[alt="Logo"] {
+  width: 130px;              /* smaller size */
+  height: 170px;             /* taller for ellipse */
+  border-radius: 50% / 60%;  /* ellipse shape */
+  object-fit: cover;         /* crop without distortion */
+  margin: 1rem auto;         /* center vertically */
   display: block;
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2); /* optional */
 }
 
-
-/* Optional: add a subtle shadow (looks nice on white background) */
-img[alt="Logo"] {
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+/* Restore layout for the Minimal theme */
+header {
+  text-align: center;
 }
