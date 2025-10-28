@@ -1,6 +1,6 @@
 /* shrink or enlarge sidebar logo without touching layout */
 header img[alt="Logo"] {
-  width: 100px !important;   /* default ≈200px; change as you like */
+  width: 200px !important;   /* default ≈200px; change as you like */
   height: auto;              /* keep proportions */
   border-radius: 50% / 60%;  /* ellipse crop, no layout side effects */
 }
