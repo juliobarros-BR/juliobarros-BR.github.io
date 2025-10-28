@@ -4,7 +4,7 @@ title: Home
 ---
 
 <p>
-  *About me*
+ **About me**
 I’m a physicist and data scientist working on micromechanics, modeling, and quantitative analysis of materials.  
 I enjoy exploring the intersection between experimental data and computational methods — especially in biomaterials and wood mechanics.
 </p>
