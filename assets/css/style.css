@@ -1,16 +1,18 @@
 /* === Custom styles for the Minimal theme === */
-
-/* Only target the sidebar logo, not the whole layout */
+/* Target only the sidebar logo image */
 header img[alt="Logo"] {
-  width: 130px;              /* smaller size */
-  height: 170px;             /* taller for ellipse */
-  border-radius: 50% / 60%;  /* ellipse shape */
-  object-fit: cover;         /* crop without distortion */
-  margin: 1rem auto;         /* center vertically */
+  width: 130px;              /* adjust size */
+  height: 170px;             /* ellipse height */
+  border-radius: 50% / 60%;  /* oval shape */
+  object-fit: cover;         /* keep proportion */
   display: block;
+  margin: 1rem auto;         /* centers image horizontally inside its box */
 }
 
-/* Restore layout for the Minimal theme */
-header {
-  text-align: center;
+/* Optional: give a subtle shadow */
+header img[alt="Logo"] {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
 }
+
+/* ⚠️ DO NOT center the entire header — this broke your layout before */
+/* So we remove: text-align: center; */
