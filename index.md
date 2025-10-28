@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<img src="profile.jpg" alt="Julio Barros" width="180" style="border-radius: 50%; margin-bottom: 1em;">
+<img src="profile.jpeg" alt="Julio Barros" width="180" style="border-radius: 50%; margin-bottom: 1em;">
 
 # Julio Barros
 **Data Scientist / Physicist**
