@@ -141,3 +141,45 @@
   }
 }
 
+/* Ensure page wrapper stacks vertically on small screens */
+@media (max-width: 768px) {
+  .page-wrapper {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .profile-sidebar {
+    width: 100%;
+    position: relative;
+    top: auto;
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+
+  .main-content {
+    max-width: 100%;
+  }
+
+  .topnav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+
+  .project-box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .project-box img {
+    max-width: 80% !important;
+    height: auto;
+  }
+}
+
