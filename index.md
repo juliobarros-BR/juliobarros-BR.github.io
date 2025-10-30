@@ -29,8 +29,6 @@ Based in Switzerland · Originally from Brazil
 
 <p><strong>🧩 Overview of Selected Projects</strong></p>
 
-Here are a few highlights from my recent research and side projects.  
-For more details, <a href="/research-projects.html">click here →</a>
 
 <div class="project-briefing">
   <img src="/assets/images/Micropillar.jpg" alt="Project 1" class="project-image">
