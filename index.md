@@ -9,7 +9,7 @@ title: Home
 
 <div class="main-content">
 
-<p><strong>Hi! I'm Júlio — welcome to my page :)</strong></p>
+<p><strong>Hi! I'm Júlio, welcome to my page :)</strong></p>
 
 <p>
 I’m a physicist by training, driven by curiosity about how complex systems behave and how we can describe them through models and data.  
