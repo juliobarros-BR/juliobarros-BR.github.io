@@ -21,7 +21,7 @@
 .profile-sidebar h1 {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
-  color: #007acc;  /* blue title fix */
+  color: #007acc;  /* blue title */
 }
 
 .profile-sidebar img {
@@ -63,7 +63,34 @@
   line-height: 1.6;
 }
 
-/* Responsive */
+/* === Top navigation inside main content === */
+.topnav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #fefefe;
+  padding: 0.75rem 0 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1.5rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.topnav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #007acc;
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
+.topnav a:hover {
+  color: #005a99;
+}
+
+/* === Responsive adjustments === */
 @media (max-width: 768px) {
   .page-wrapper {
     flex-direction: column;
@@ -81,10 +108,3 @@
     max-width: 100%;
   }
 }
-
-.profile-sidebar h1 {
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
-  color: #007acc;  /* <-- same blue as your links */
-}
-
