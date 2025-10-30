@@ -8,24 +8,35 @@
     <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}">
   </head>
   <body>
-    <header>
-      <h1>{{ site.title }}</h1>
-      {% if site.logo %}
-        <img src="{{ site.logo | relative_url }}" alt="Logo">
-      {% endif %}
-      <p>{{ site.description }}</p>
+    <div class="page-wrapper">
+      <!-- === LEFT COLUMN === -->
+      <aside class="profile-sidebar">
+        <h1>{{ site.title }}</h1>
+        {% if site.logo %}
+          <img src="{{ site.logo | relative_url }}" alt="Logo">
+        {% endif %}
+        <p class="description">{{ site.description }}</p>
 
-      {% include footer_custom.html %}  <!-- 👈 THIS IS THE FIX -->
-    </header>
+        {% if site.contact %}
+        <div class="contact-links">
+          <ul>
+            {% for link in site.contact %}
+              <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+      </aside>
 
-    <main>
-      {{ content }}
-    </main>
-
-    <footer>
-      <p>
-        Hosted on GitHub Pages — Theme by <a href="https://github.com/orderedlist">orderedlist</a>
-      </p>
-    </footer>
+      <!-- === RIGHT COLUMN === -->
+      <main class="main-content">
+        {{ content }}
+        <footer>
+          <p>
+            Hosted on GitHub Pages — Theme by <a href="https://github.com/orderedlist">orderedlist</a>
+          </p>
+        </footer>
+      </main>
+    </div>
   </body>
 </html>
