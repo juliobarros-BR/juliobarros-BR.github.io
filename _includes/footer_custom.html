@@ -1,0 +1,10 @@
+<!-- Custom contact links below profile -->
+{% if site.contact %}
+<div class="contact-links">
+  <ul>
+    {% for link in site.contact %}
+      <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
