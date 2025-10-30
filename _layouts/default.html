@@ -8,17 +8,9 @@
     <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}">
   </head>
   <body>
-
-    <!-- === TOP NAV BAR (always on top) === -->
-    <nav class="topnav">
-      <a href="/">Main</a>
-      <a href="/research-projects.html">Research Projects</a>
-      <a href="/other-projects.html">Side Projects</a>
-      <a href="/personal.html">Personal Life</a>
-    </nav>
-
     <!-- === FLEX WRAPPER (sidebar + content) === -->
     <div class="page-wrapper">
+      
       <!-- === LEFT COLUMN === -->
       <aside class="profile-sidebar">
         <h1>{{ site.title }}</h1>
@@ -40,7 +32,16 @@
 
       <!-- === RIGHT COLUMN === -->
       <main class="main-content">
+        <!-- === STICKY TOP NAVIGATION === -->
+        <nav class="topnav">
+          <a href="/">Main</a>
+          <a href="/research-projects.html">Research Projects</a>
+          <a href="/other-projects.html">Side Projects</a>
+          <a href="/personal.html">Personal Life</a>
+        </nav>
+
         {{ content }}
+
         <footer>
           <p>Hosted on GitHub Pages — Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
         </footer>
