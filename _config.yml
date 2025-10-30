@@ -7,8 +7,14 @@ show_downloads: false
 include:
   - assets
 
-
 # === Social links ===
 github: https://github.com/juliobarros-BR
 linkedin: https://www.linkedin.com/in/julio-o-amando-de-barros-a80861129/
 google_scholar: https://scholar.google.com/citations?user=0siqWoIAAAAJ&hl=en&oi=ao
+
+# === Top navigation menu ===
+header_pages:
+  - index.md
+  - research-projects.md
+  - other-projects.md
+  - personal.md
