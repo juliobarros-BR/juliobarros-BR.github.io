@@ -5,15 +5,7 @@ title: Home
 
 <link rel="stylesheet" href="/assets/css/custom.css">
 
-<div class="sidebar">
-  <h3>Connect</h3>
-  <ul>
-    <li><a href="cv.pdf">📄 Download CV</a></li>
-    <li><a href="https://github.com/juliobarros-BR">💼 GitHub</a></li>
-    <li><a href="https://www.linkedin.com/in/julio-o-amando-de-barros-a80861129/">🔗 LinkedIn</a></li>
-    <li><a href="https://scholar.google.com/citations?user=0siqWoIAAAAJ&hl=en&oi=ao">🎓 Google Scholar</a></li>
-  </ul>
-</div>
+
 
 <div class="main-content">
 
