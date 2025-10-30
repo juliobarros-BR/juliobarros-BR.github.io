@@ -12,10 +12,10 @@ title: Home
 <p><strong>Hi! I'm Júlio, welcome to my page :)</strong></p>
 
 <p>
-I’m a physicist by training, driven by curiosity about how complex systems behave and how we can describe them through models and data.  
+I'm a physicist with a deep interest in how complex systems work and how their behavior can be understood through modeling and data analysis.
 My passion for physics, combined with an early interest in music, led me to study the physics of acoustic instruments and, eventually, wood.  
 The naturally complex and hierarchical structure of wood, along with its remarkable mechanical properties, sparked my fascination with materials science.  
-Since then, I have integrated experimental, numerical, and data analysis techniques to explain the behavior of materials.
+Today, I combine experimental methods, simulations, modeling, and data analysis to investigate how structure relates to function in natural and engineered materials.
 </p>
 
 <p>
