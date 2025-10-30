@@ -5,6 +5,10 @@ header img[alt="Logo"] {
   border-radius: 50% / 60%;  /* ellipse crop, no layout side effects */
 }
 
+
+body {
+  background: #fefefe; /* should change background slightly */
+}
 /* === Minimal layout additions === */
 body {
   display: flex;
