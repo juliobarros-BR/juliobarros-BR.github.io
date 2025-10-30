@@ -33,7 +33,7 @@ Here are a few highlights from my recent research and side projects.
 For more details, <a href="/research-projects.html">click here →</a>
 
 <div class="project-briefing">
-  <img src="/assets/images/MicroPillar.jpg" alt="Project 1" class="project-image">
+  <img src="/assets/images/Micropillar.jpg" alt="Project 1" class="project-image">
   <div class="project-text">
     <h4>Micropillar Compression Experiments</h4>
     <p>Analyzing micromechanical behavior of wood through in-situ testing and digital image correlation on microscale pillars.</p>
