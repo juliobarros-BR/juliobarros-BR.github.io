@@ -3,7 +3,7 @@ layout: default
 title: Research Projects
 ---
 
-## 🧪 Research Projects
+<p><strong>🧪 Research Projects</strong></p>
 <div class="project-briefing">
   <img src="/assets/images/Bundle.jpg" alt="Project 1" class="project-image">
   <div class="project-text">
@@ -36,6 +36,15 @@ title: Research Projects
   <div class="project-text">
     <h4>Moisture Dependent Fiber Bundle Model</h4>
     <p>Unifying model for hygroresponsive materials that present mechanosorption behavior.</p>
+    <a href=" https://journals.aps.org/pre/abstract/10.1103/PhysRevE.109.044139" target="_blank">Click here to read the paper</a>.
+  </div>
+</div>
+
+<div class="project-briefing">
+  <img src="/assets/images/Mestrado.png" alt="Project 1" class="project-image">
+  <div class="project-text">
+    <h4>Molecular Dynamics Simulations on Cellulose-Amino Acids Interactions for Drug Delivery</h4>
+    <p>Master Thesis on.........</p>
     <a href=" https://journals.aps.org/pre/abstract/10.1103/PhysRevE.109.044139" target="_blank">Click here to read the paper</a>.
   </div>
 </div>
