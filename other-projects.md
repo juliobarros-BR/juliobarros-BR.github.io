@@ -4,6 +4,7 @@ title: Side Projects
 ---
 
 <p><strong>🧪 Side Projects</strong></p>
+
 <div class="project-briefing">
   <img src="/assets/images/HOMO.jpg" alt="Project 1" class="project-image">
   <div class="project-text">
