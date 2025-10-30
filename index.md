@@ -26,8 +26,6 @@ I enjoy exploring new methods, interdisciplinary perspectives, and scientific re
 Based in Switzerland · Originally from Brazil
 </p>
 
-💬 About this site
-This page collects my work, research, and side projects.  
-For more personal interests, check out [my personal life page](personal.md).
+<p><strong>Overview of Selected Projects:</strong></p>
 
 </div>
