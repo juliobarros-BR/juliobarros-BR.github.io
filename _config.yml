@@ -18,3 +18,17 @@ header_pages:
   - research-projects.md
   - other-projects.md
   - personal.md
+
+
+# === Contact links (shown under picture) ===
+contact:
+  - name: "📄 Download CV"
+    url: "cv.pdf"
+  - name: "💼 GitHub"
+    url: "https://github.com/juliobarros-BR"
+  - name: "🔗 LinkedIn"
+    url: "https://www.linkedin.com/in/julio-o-amando-de-barros-a80861129/"
+  - name: "🎓 Google Scholar"
+    url: "https://scholar.google.com/citations?user=0siqWoIAAAAJ&hl=en&oi=ao"
+  - name: "✉️ julioortizbarros@gmail.com"
+    url: "mailto:julioortizbarros@gmail.com"
