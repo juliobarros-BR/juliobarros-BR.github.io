@@ -6,9 +6,7 @@ header img[alt="Logo"] {
 }
 
 
-body {
-  background: #ffcccb; /* light red */
-}
+body { background: #fefefe; /* should change background slightly */ }
 /* === Minimal layout additions === */
 body {
   display: flex;
