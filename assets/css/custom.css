@@ -114,7 +114,7 @@
 /* === Project Briefing Block === */
 .project-briefing {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: 2rem;
   gap: 1.5rem;
 }
