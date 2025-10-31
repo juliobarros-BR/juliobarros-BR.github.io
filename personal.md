@@ -3,7 +3,7 @@ layout: default
 title: Music Projects
 ---
 
-🎶 Music Projects
+<p style="font-size: 1.3rem;"><strong>🎶 Music Projects</strong></p>
 <div class="project-briefing">
   <img src="/assets/images/Sambagasse.jpeg" alt="Project 1" class="project-image">
   <div class="project-text">
