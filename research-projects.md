@@ -3,7 +3,7 @@ layout: default
 title: Research Projects
 ---
 
-<p><strong>🧪 Research Projects</strong></p>
+<p style="font-size: 1.3rem;"><strong>🧪 Research Projects</strong></p>
 <div class="project-briefing">
   <img src="/assets/images/Bundle.jpg" alt="Project 1" class="project-image">
   <div class="project-text">
