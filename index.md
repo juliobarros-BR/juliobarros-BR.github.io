@@ -9,7 +9,7 @@ title: Home
 
 <div class="main-content">
 
-<p><strong>Hi! I'm Júlio, welcome to my page :)</strong></p>
+<p style="font-size: 1.3rem;"><strong>Hi! I'm Júlio, welcome to my page :)</strong></p>
 
 <p>
 I'm a physicist with a deep interest in how complex systems work and how their behavior can be understood through modeling and data analysis.
