@@ -27,7 +27,7 @@ Based in Switzerland · Originally from Brazil
 </p>
 
 
-<p><strong>🧩 Overview of Selected Projects</strong></p>
+<p style="font-size: 1.3rem;"><strong>🧩 Overview of Selected Projects</strong></p>
 
 
 <div class="project-briefing">
