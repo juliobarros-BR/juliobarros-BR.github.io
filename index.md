@@ -8,23 +8,27 @@ title: Home
 
 
 <div class="main-content">
-
-<p style="font-size: 1.3rem;"><strong>Hi! I'm Júlio, welcome to my page :)</strong></p>
+  
+<p style="font-size: 1.3rem;"><strong>Hi! I'm Júlio, welcome to my page</strong></p>
 
 <p>
-I'm a physicist with a deep interest in how complex systems work and how their behavior can be understood through modeling and data analysis.
-My passion for physics, combined with an early interest in music, led me to study the physics of acoustic instruments and, eventually, wood.  
-The naturally complex and hierarchical structure of wood, along with its remarkable mechanical properties, sparked my fascination with materials science.  
-Today, I combine experimental methods, simulations, modeling, and data analysis to investigate how structure relates to function in natural and engineered materials.
+I am a physicist working at the interface of experimental research, data analysis, and computational modeling, with a focus on understanding complex systems through quantitative approaches.
 </p>
 
 <p>
-I enjoy exploring new methods, interdisciplinary perspectives, and scientific reasoning to enlighten the unknown and simplify the known.
+My experience spans designing and building experimental setups, acquiring and processing experimental data, and developing Python-based analysis and simulation tools to connect measurements with physical models.
+I work across the full research workflow, from experiment design to data-driven interpretation.
+</p>
+
+<p>
+I am particularly interested in interdisciplinary environments where experimental rigor, scientific software, and data analysis are combined to address applied research challenges.
 </p>
 
 <p>
 Based in Switzerland · Originally from Brazil
 </p>
+
+
 
 
 <p style="font-size: 1.3rem;"><strong>🧩 Overview of Selected Projects</strong></p>
