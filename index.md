@@ -9,7 +9,7 @@ title: Home
 
 <div class="main-content">
   
-<p style="font-size: 1.3rem;"><strong>Hi! I'm Júlio, welcome to my page</strong></p>
+<p style="font-size: 1.3rem;"><strong>Hi! I'm Júlio, welcome to my page 🙂</strong></p>
 
 <p>
 I am a physicist working at the interface of experimental research, data analysis, and computational modeling, with a focus on understanding complex systems through quantitative approaches.
@@ -56,8 +56,7 @@ Based in Switzerland · Originally from Brazil
   <img src="/assets/images/Mestrado.png" alt="Project 1" class="project-image">
   <div class="project-text">
     <h4>Molecular Dynamics Simulations on Cellulose-Amino Acids Interactions for Drug Delivery</h4>
-    <p>Master Thesis on.........</p>
-    <a href=" https://journals.aps.org/pre/abstract/10.1103/PhysRevE.109.044139" target="_blank">Click here to read the paper</a>.
+    <p> Master's thesis on Molecular Dynamics of chemically modified cellulose microfibrils</p>
   </div>
 </div>
 
