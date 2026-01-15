@@ -44,7 +44,6 @@ title: Research Projects
   <img src="/assets/images/Mestrado.png" alt="Project 1" class="project-image">
   <div class="project-text">
     <h4>Molecular Dynamics Simulations on Cellulose-Amino Acids Interactions for Drug Delivery</h4>
-    <p>Master Thesis on.........</p>
-    <a href=" https://journals.aps.org/pre/abstract/10.1103/PhysRevE.109.044139" target="_blank">Click here to read the paper</a>.
+    <p> Master's thesis on Molecular Dynamics of chemically modified cellulose microfibrils</p>
   </div>
 </div>
