@@ -19,3 +19,15 @@ title: Side Projects
     <p>Coming soon...</p>
   </div>
 </div>
+
+<div class="project-briefing">
+  <img src="/assets/images/Microscopy.png" alt="Project 1" class="project-image">
+  <div class="project-text">
+    <h4>Microscopy for Wood Densification Simulations</h4>
+    <p>
+      <a href="https://link.springer.com/article/10.1007/s00226-025-01692-0" target="_blank" rel="noopener">
+        Click here to read the paper.
+      </a>
+    </p>
+  </div>
+</div>
