@@ -55,8 +55,9 @@ Based in Switzerland · Originally from Brazil
 <div class="project-briefing">
   <img src="/assets/images/Mestrado.png" alt="Project 1" class="project-image">
   <div class="project-text">
-    <h4>Molecular Dynamics Simulations on Cellulose-Amino Acids Interactions for Drug Delivery</h4>
+    <h4>Molecular Dynamics Simulations on Cellulose-Amino Acids Interactions for Drug Delivery.</h4>
     <p> Master's thesis on Molecular Dynamics of chemically modified cellulose microfibrils</p>
+    <a href="https://www.teses.usp.br/teses/disponiveis/43/43134/tde-15012026-111854/en.php" target="_blank">Click here to read the thesis</a>.
   </div>
 </div>
 
