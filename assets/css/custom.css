@@ -27,7 +27,7 @@
 .profile-sidebar img {
   width: 140px;
   height: auto;
-  border-radius: 50% / 60%;
+  border-radius: 0;
   margin-bottom: 0.5rem;
 }
 
