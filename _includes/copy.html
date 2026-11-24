@@ -1,0 +1,3 @@
+{%- capture copy_path -%}copy/{{ include.file }}.md{%- endcapture -%}
+{%- capture copy_markdown -%}{% include {{ copy_path }} %}{%- endcapture -%}
+{{ copy_markdown | markdownify }}

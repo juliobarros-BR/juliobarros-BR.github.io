@@ -3,62 +3,46 @@ layout: default
 title: Home
 ---
 
-<link rel="stylesheet" href="/assets/css/custom.css">
-
-
-
-<div class="main-content">
-  
-<p style="font-size: 1.3rem;"><strong>Hi! I am Júlio, welcome to my page 🙂</strong></p>
-
-<p>
-I am a physicist working at the interface of experimental research, data analysis, and computational modeling, with a focus on understanding complex systems through quantitative approaches.
-</p>
-
-<p>
-My experience spans designing and building experimental setups, acquiring and processing experimental data, and developing Python-based analysis and simulation tools to connect measurements with physical models.
-I work across the full research workflow, from experiment design to data-driven interpretation.
-</p>
-
-<p>
-I am particularly interested in interdisciplinary environments where experimental rigor, scientific software, and data analysis are combined to address applied research challenges.
-</p>
-
-<p>
-Based in Switzerland · Originally from Brazil
-</p>
-
-
-
-
-<p style="font-size: 1.3rem;"><strong>🧩 Overview of Selected Projects</strong></p>
-
-
-<div class="project-briefing">
-  <img src="/assets/images/Micropillar.jpg" alt="Project 1" class="project-image">
-  <div class="project-text">
-    <h4>Micropillar Compression Experiments</h4>
-    <p>Analyzing micromechanical behavior of wood through in-situ testing and digital image correlation on microscale pillars.</p>
-    <a href="https://www.sciencedirect.com/science/article/pii/S1359835X25005032" target="_blank">Click here to read the paper</a>.
+<section class="hero" aria-labelledby="intro">
+  <div class="hero-copy">
+    <p class="eyebrow">Switzerland</p>
+    <h1 id="intro">Júlio Amando de Barros</h1>
+    <p class="profile-role">Physicist · Experiments, modelling and scientific computing</p>
+    <div class="lead">{% include copy.html file="home-intro" %}</div>
+    <div class="actions">
+      <a class="button" href="#work">Explore my research</a>
+      <a class="text-link" href="{{ '/cv.html' | relative_url }}">View CV</a>
+    </div>
   </div>
-</div>
+  <figure class="portrait">
+    <img src="{{ '/assets/images/portrait.webp' | relative_url }}" width="760" height="1013" alt="Júlio Amando de Barros" fetchpriority="high">
+  </figure>
+</section>
 
-<div class="project-briefing">
-  <img src="/assets/images/FBM.jpg" alt="Project 1" class="project-image">
-  <div class="project-text">
-    <h4>Moisture Dependent Fiber Bundle Model</h4>
-    <p>Unifying model for hygroresponsive materials that present mechanosorption behavior.</p>
-    <a href=" https://journals.aps.org/pre/abstract/10.1103/PhysRevE.109.044139" target="_blank">Click here to read the paper</a>.
+<section class="section" id="work" aria-labelledby="selected-research">
+  <div class="section-heading">
+    <h2 id="selected-research">Selected research</h2>
+    <a class="text-link" href="{{ '/research-projects.html' | relative_url }}">View all research</a>
   </div>
-</div>
-
-<div class="project-briefing">
-  <img src="/assets/images/Mestrado.png" alt="Project 1" class="project-image">
-  <div class="project-text">
-    <h4>Molecular Dynamics Simulations on Cellulose-Amino Acids Interactions for Drug Delivery.</h4>
-    <p> Master's thesis on Molecular Dynamics of chemically modified cellulose microfibrils</p>
-    <a href="https://www.teses.usp.br/teses/disponiveis/43/43134/tde-15012026-111854/en.php" target="_blank">Click here to read the thesis</a>.
+  <div class="projects projects-list profile-research">
+    {% for project in site.data.research limit:3 %}
+      {% include project.html project=project heading="h3" %}
+    {% endfor %}
   </div>
-</div>
+</section>
 
-</div>
+<section class="section" aria-labelledby="ongoing-home">
+  <div class="section-heading">
+    <h2 id="ongoing-home">Ongoing projects</h2>
+  </div>
+  <div class="case-grid">
+    <article>
+      <h3><a href="{{ '/personal.html#sambagasse' | relative_url }}">Sambagasse</a></h3>
+      <p>An app for coordinating the work behind a Zürich samba band, from finance and production to the design studio.</p>
+    </article>
+    <article>
+      <h3><a href="{{ '/research-projects.html#pillar-atlas' | relative_url }}">Wood mechanics analysis</a></h3>
+      {% include copy.html file="wood-mechanics-analysis" %}
+    </article>
+  </div>
+</section>

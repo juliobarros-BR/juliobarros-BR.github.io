@@ -1,11 +1,21 @@
 title: "Júlio Amando de Barros"
-description: "Physicist with experience in material science, modeling, automation, data science, and data visualization"
+description: "Experimental physicist using experiments, modelling, and scientific computing to study complex systems."
 theme: jekyll-theme-minimal
 logo: /Me_CV.png
 
 show_downloads: false
 include:
   - assets
+exclude:
+  - preview.sh
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - applied-ai.md
+  - assets/images/atlas-*.webp
+  - assets/images/atlas-*.png
+  - assets/js/atlas.js
 
 # === Social links ===
 github: https://github.com/juliobarros-BR

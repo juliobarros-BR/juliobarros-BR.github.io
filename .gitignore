@@ -1,0 +1,15 @@
+/_site/
+/.jekyll-cache/
+/.jekyll-metadata
+/.sass-cache/
+/.bundle/
+/vendor/
+
+# Unpublished portfolio drafts
+/applied-ai.md
+/_includes/atlas.html
+/_includes/copy/applied-ai-intro.md
+/_includes/copy/atlas-*.md
+/_includes/copy/pillar-atlas.md
+/assets/images/atlas-*
+/assets/js/atlas.js

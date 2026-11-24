@@ -1,49 +1,35 @@
 ---
 layout: default
-title: Research Projects
+title: Research
+description: Publications and projects in experimental mechanics, moisture-responsive materials, and molecular simulation.
 ---
 
-<p style="font-size: 1.3rem;"><strong>🧪 Research Projects</strong></p>
-<div class="project-briefing">
-  <img src="/assets/images/Bundle.jpg" alt="Project 1" class="project-image">
-  <div class="project-text">
-    <h4>Viscoelasticity on Fiber Bundles</h4>
-    <p>Coming soon...</p>
-  </div>
+<header class="page-intro">
+  <h1>Research projects</h1>
+  <p class="lead">{{ page.description }}</p>
+</header>
+
+<div class="projects projects-list">
+  {% for project in site.data.research %}
+    {% include project.html project=project heading="h2" %}
+  {% endfor %}
 </div>
 
-<div class="project-briefing">
-  <img src="/assets/images/FBM_diff.png" alt="Project 1" class="project-image">
-  <div class="project-text">
-    <h4>Diffusion Dependent Fiber Bundle Model</h4>
-    <p>Coming soon...</p>
+<section class="section" aria-labelledby="ongoing-research">
+  <h2 id="ongoing-research">Ongoing research</h2>
+  <div class="case-grid">
+    <article id="pillar-atlas">
+      <h3>Wood mechanics analysis</h3>
+      {% include copy.html file="wood-mechanics-analysis" %}
+    </article>
   </div>
-</div>
+</section>
 
-
-
-<div class="project-briefing">
-  <img src="/assets/images/Micropillar.jpg" alt="Project 1" class="project-image">
-  <div class="project-text">
-    <h4>Micropillar Compression Experiments</h4>
-    <p>Analyzing micromechanical behavior of wood through in-situ testing and digital image correlation on microscale pillars.</p>
-    <a href="https://www.sciencedirect.com/science/article/pii/S1359835X25005032" target="_blank">Click here to read the paper</a>.
+<section class="section" id="additional-research" aria-labelledby="additional-research-title">
+  <h2 id="additional-research-title">Additional research</h2>
+  <div class="projects projects-list">
+    {% for project in site.data.additional_research %}
+      {% include project.html project=project heading="h3" %}
+    {% endfor %}
   </div>
-</div>
-
-<div class="project-briefing">
-  <img src="/assets/images/FBM.jpg" alt="Project 1" class="project-image">
-  <div class="project-text">
-    <h4>Moisture Dependent Fiber Bundle Model</h4>
-    <p>Unifying model for hygroresponsive materials that present mechanosorption behavior.</p>
-    <a href=" https://journals.aps.org/pre/abstract/10.1103/PhysRevE.109.044139" target="_blank">Click here to read the paper</a>.
-  </div>
-</div>
-
-<div class="project-briefing">
-  <img src="/assets/images/Mestrado.png" alt="Project 1" class="project-image">
-  <div class="project-text">
-    <h4>Molecular Dynamics Simulations on Cellulose-Amino Acids Interactions for Drug Delivery</h4>
-    <p> Master's thesis on Molecular Dynamics of chemically modified cellulose microfibrils</p>
-  </div>
-</div>
+</section>

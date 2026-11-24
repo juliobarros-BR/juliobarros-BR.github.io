@@ -1,0 +1,27 @@
+- title: Wood cell-wall micromechanics
+  image: Micropillar.jpg
+  venue: Composites Part A · 2025
+  description: Combined in-situ micropillar compression and digital image correlation to measure wood cell-wall mechanics and identify how electron-beam damage affects stiffness measurements.
+  url: https://www.sciencedirect.com/science/article/pii/S1359835X25005032
+  label: Read the paper
+- title: Moisture-dependent fiber bundle model
+  image: FBM.jpg
+  venue: Physical Review E · 2024
+  description: Developed a statistical stick-slip fiber bundle model to study how cyclic humidity affects the deformation of hygroscopic materials under load.
+  url: https://doi.org/10.1103/PhysRevE.109.044139
+  label: Read the paper
+- title: Coupling moisture transport and deformation
+  image: FBM_diff.png
+  venue: Wood Science and Technology · 2026
+  description: Extended the fiber bundle model with moisture diffusion to study how transient moisture transport affects the mechanical response of wood.
+  url: https://doi.org/10.1007/s00226-026-01802-6
+  label: Read the paper
+- title: Molecular dynamics of modified cellulose
+  image: Mestrado.png
+  venue: University of São Paulo · Master’s thesis
+  description: Used molecular dynamics to study interactions between chemically modified cellulose microfibrils and amino acids for potential drug-delivery applications.
+  url: https://www.teses.usp.br/teses/disponiveis/43/43134/tde-15012026-111854/en.php
+  label: Read the thesis
+- title: Viscoelasticity in fiber bundles
+  image: Bundle.jpg
+  description: Explores time-dependent deformation in fiber bundles.
